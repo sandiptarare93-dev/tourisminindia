@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="fZWZo4v4ugG3xaVQjjEQZRM_ZbmF1lxAGxhrBqhm3IM" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore India - a simple government-style tourism marketing website.">
+  <title>Explore India | Tourism</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">🇮🇳 Explore<span>India</span></a>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#about">Why India</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="tag">MINISTRY OF TOURISM • INDIA</p>
+        <h1>Discover the <span>Spirit of India</span></h1>
+        <p>From majestic mountains to vibrant cities, timeless heritage and unforgettable experiences await you.</p>
+        <a class="btn" href="#destinations">Explore Destinations →</a>
+      </div>
+    </section>
+
+    <section class="section" id="destinations">
+      <div class="section-head">
+        <p class="eyebrow">EXPLORE</p>
+        <h2>Popular Destinations</h2>
+        <p>Experience India's culture, nature and heritage in one journey.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=900&q=80" alt="Taj Mahal">
+          <div class="card-body"><span>Agra</span><h3>Taj Mahal</h3><p>A symbol of love and one of India's most iconic monuments.</p></div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=900&q=80" alt="Kerala backwaters">
+          <div class="card-body"><span>Kerala</span><h3>Backwaters</h3><p>Relax among peaceful waterways, greenery and traditional villages.</p></div>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=900&q=80" alt="Jaipur city">
+          <div class="card-body"><span>Rajasthan</span><h3>Jaipur</h3><p>Discover royal forts, colourful markets and rich traditions.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="why" id="about">
+      <div class="why-image"></div>
+      <div class="why-content">
+        <p class="eyebrow">WHY INDIA?</p>
+        <h2>One country. A thousand experiences.</h2>
+        <p>India brings together ancient heritage, diverse landscapes, extraordinary food and living traditions.</p>
+        <div class="features">
+          <div><b>🏛️ Heritage</b><small>Historic monuments & UNESCO sites</small></div>
+          <div><b>🏔️ Nature</b><small>Mountains, beaches & forests</small></div>
+          <div><b>🍛 Cuisine</b><small>Flavours from every region</small></div>
+          <div><b>🎉 Culture</b><small>Festivals, art & traditions</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-head">
+        <p class="eyebrow">TRAVEL INSPIRATION</p>
+        <h2>See India</h2>
+      </div>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1532664189809-02133fee698d?auto=format&fit=crop&w=1000&q=80" alt="Indian temple">
+        <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80" alt="Taj Mahal">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80" alt="Mountain landscape">
+        <img src="https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1000&q=80" alt="Indian travel">
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Your India story starts here.</h2>
+      <p>Plan your next journey and discover something unforgettable.</p>
+      <a class="btn light" href="#contact">Plan a Visit</a>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-head">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Travel Enquiry</h2>
+      </div>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <select id="place" required>
+          <option value="">Choose destination</option>
+          <option>Agra</option><option>Kerala</option><option>Rajasthan</option>
+          <option>Goa</option><option>Himachal Pradesh</option>
+        </select>
+        <textarea id="message" rows="4" placeholder="Tell us about your travel plan" required></textarea>
+        <button class="btn" type="submit">Send Enquiry</button>
+        <p id="formMsg"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div><b>🇮🇳 ExploreIndia</b><p>Promoting India's tourism, heritage and culture.</p></div>
+    <div><p>© 2026 Explore India • Tourism Promotion Website</p><p class="small">This is a student/demo project and is not an official government website.</p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
